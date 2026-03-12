@@ -17,9 +17,23 @@ This tool was created as an open-source utility to support community analytics a
 
 ---
 
-# Demo
+## Demo
 
 Example CLI usage
+
+```
+$ node src/index.js
+
+Enter wallet address:
+0x82f...d1a
+
+Analyzing wallet...
+
+Airdrop Probability Score: 146
+
+Result:
+High probability for Shelby Airdrop
+```
 
 Screenshot demo
 
@@ -27,40 +41,71 @@ Screenshot demo
 
 ---
 
-# Features
+## Features
 
-• Wallet validation  
-• Airdrop probability scoring  
-• CLI interface  
-• Modular architecture  
-• Community focused analytics  
+• Wallet validation
+• Airdrop probability scoring
+• CLI interface
+• Modular architecture
+• Community focused analytics
 
 ---
 
-# Quick Install
+## Quick Install
 
 Install with one command
 
+```
+curl -sL https://raw.githubusercontent.com/YOURNAME/shelby-airdrop-tracker/main/install.sh | bash
+```
+
 Or manually
+
+```
+git clone https://github.com/YOURNAME/shelby-airdrop-tracker
+cd shelby-airdrop-tracker
+npm install
+```
 
 Run
 
----
-
-# Project Structure
-
----
-
-# Roadmap
-
-- Integrate real blockchain APIs  
-- Wallet activity scoring  
-- Community leaderboard  
-- Dashboard interface  
+```
+node src/index.js
+```
 
 ---
 
-# Contributing
+## Project Structure
+
+```
+shelby-airdrop-tracker
+│
+├─ assets
+│   └─ demo.png
+│
+├─ src
+│   ├─ index.js
+│   ├─ tracker.js
+│   └─ validator.js
+│
+├─ install.sh
+├─ package.json
+├─ README.md
+└─ .gitignore
+```
+
+---
+
+## Roadmap
+
+* Integrate real blockchain APIs
+* Wallet activity scoring
+* Community leaderboard
+* Dashboard interface
+
+---
+
+## Contributing
 
 Community contributions are welcome.
 
@@ -68,6 +113,6 @@ Open an issue or submit a pull request.
 
 ---
 
-# License
+## License
 
 MIT License
